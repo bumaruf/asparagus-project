@@ -1,7 +1,12 @@
 {
-  "name": "aspargus",
-  "version": "0.1.0",
-  "private": true,
+  "name": "asparagus-project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "Otávio Bumaruf",
+    "url": "https://github.com/bumaruf"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +14,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.8",
+    "axios": "^0.27.2",
+    "mongoose": "^6.3.6",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
